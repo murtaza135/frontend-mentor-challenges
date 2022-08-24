@@ -1,0 +1,63 @@
+/* buttons */
+.btn {
+  padding: 0.875em 0;
+  border: none;
+  border-radius: 100vw;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  color: var(--btn-color);
+  background-color: var(--btn-bg-color);
+}
+
+.btn:hover {
+  color: var(--btn-color-hover);
+  background-color: var(--btn-bg-color-hover);
+}
+
+.btn-primary {
+  --btn-color: hsl(var(--clr-neutral-100));
+  --btn-bg-color: hsl(var(--clr-primary-400));
+  --btn-color-hover: hsl(var(--clr-primary-400));
+  --btn-bg-color-hover: hsl(var(--clr-neutral-100));
+}
+
+.btn-circle {
+  background-color: hsl(var(--clr-neutral-400));
+  color: hsl(var(--clr-neutral-300));
+  border-radius: 50%;
+  width: min(100%, 3rem);
+  min-height: 3rem;
+  display: grid;
+  place-items: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+/* circular buttons */
+.btn-circle:hover {
+  background-color: hsl(var(--clr-primary-400));
+  color: hsl(var(--clr-neutral-100));
+}
+
+.btn-circle.active {
+  background-color: hsl(var(--clr-neutral-300));
+  color: hsl(var(--clr-neutral-100));
+}
+
+.star-circle {
+  background-color: hsl(var(--clr-neutral-400));
+  color: hsl(var(--clr-neutral-300));
+  border-radius: 50%;
+  width: min(100%, 3rem);
+  min-height: 3rem;
+  display: grid;
+  place-items: center;
+}
+
+/* pills */
+.pill {
+  background-color: hsl(var(--clr-neutral-400));
+  color: hsl(var(--clr-primary-400), 0.8);
+  border-radius: 100vw;
+  padding: 0.4rem 0.75rem 0.2rem;
+}

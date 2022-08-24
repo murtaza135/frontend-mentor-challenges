@@ -1,0 +1,55 @@
+.card {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 38.5rem;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 40em) {
+  .card {
+    flex-direction: row;
+    flex: 1;
+  }
+}
+
+.card-image {
+  background-image: url("../images/image-product-mobile.jpg");
+  min-width: 50%;
+  min-height: 250px;
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 28em) {
+  .card-image {
+    background-position: 50% 10%;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .card-image {
+    background-image: url("../images/image-product-desktop.jpg");
+    background-position: center;
+  }
+}
+
+.card-data {
+  display: grid;
+  gap: clamp(1rem, 4vw, 1.5rem);
+  padding: clamp(1.5rem, 4vw, 2rem);
+}
+
+.card-pricing {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.btn-add-to-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.65rem;
+}

@@ -1,0 +1,45 @@
+/* buttons */
+.btn {
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+  color: var(--btn-color);
+  background-color: var(--btn-bg-color);
+}
+
+.btn:hover {
+  color: var(--btn-color-hover);
+  background-color: var(--btn-bg-color-hover);
+}
+
+.btn.active {
+  color: var(--btn-color-active);
+  background-color: var(--btn-bg-color-active);
+}
+
+.btn-primary {
+  --btn-color: hsl(var(--clr-primary-400));
+  --btn-bg-color: hsl(0, 0, 0, 0);
+  --btn-color-hover: hsl(var(--clr-neutral-200));
+  --btn-bg-color-hover: hsl(0, 0, 0, 0);
+  --btn-color-active: hsl(var(--clr-neutral-200));
+  --btn-bg-color-active: hsl(0, 0, 0, 0);
+}
+
+.btn-neutral-200 {
+  --btn-color: hsl(var(--clr-neutral-200));
+  --btn-bg-color: hsl(0, 0, 0, 0);
+  --btn-color-hover: hsl(var(--clr-primary-200));
+  --btn-bg-color-hover: hsl(0, 0, 0, 0);
+  --btn-color-active: hsl(var(--clr-primary-200));
+  --btn-bg-color-active: hsl(0, 0, 0, 0);
+}
+
+.btn-neutral-400 {
+  --btn-color: hsl(var(--clr-neutral-400));
+  --btn-bg-color: hsl(0, 0, 0, 0);
+  --btn-color-hover: hsl(var(--clr-primary-200));
+  --btn-bg-color-hover: hsl(0, 0, 0, 0);
+  --btn-color-active: hsl(var(--clr-primary-200));
+  --btn-bg-color-active: hsl(0, 0, 0, 0);
+}

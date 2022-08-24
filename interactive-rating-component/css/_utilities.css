@@ -1,0 +1,110 @@
+/* Typography */
+.ff-sans {
+  font-family: var(--ff-sans);
+}
+
+.fs-400 {
+  font-size: var(--fs-400);
+}
+
+.fs-700 {
+  font-size: var(--fs-700);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.letter-spacing-1 {
+  letter-spacing: 2px;
+}
+
+/* Colors */
+.bg-primary-400 {
+  background-color: hsl(var(--clr-primary-400));
+}
+
+.bg-neutral-100 {
+  background-color: hsl(var(--clr-neutral-100));
+}
+
+.bg-neutral-300 {
+  background-color: hsl(var(--clr-neutral-300));
+}
+
+.bg-neutral-400 {
+  background-color: hsl(var(--clr-neutral-400));
+}
+
+.bg-neutral-700 {
+  background-color: hsl(var(--clr-neutral-700));
+}
+
+.bg-neutral-800 {
+  background-color: hsl(var(--clr-neutral-800));
+}
+
+.text-primary-400 {
+  color: hsl(var(--clr-primary-400));
+}
+
+.text-neutral-100 {
+  color: hsl(var(--clr-neutral-100));
+}
+
+.text-neutral-300 {
+  color: hsl(var(--clr-neutral-300));
+}
+
+.text-neutral-400 {
+  color: hsl(var(--clr-neutral-400));
+}
+
+.text-neutral-700 {
+  color: hsl(var(--clr-neutral-700));
+}
+
+.text-neutral-800 {
+  color: hsl(var(--clr-neutral-800));
+}
+
+/* Layout */
+.container {
+  max-width: var(--container, 80rem);
+  padding: 0 1rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.hide {
+  display: none !important;
+}
+
+.height-100-vh {
+  min-height: 100vh;
+}
+
+.stretch {
+  min-width: 100%;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+}
+
+.inline {
+  display: inline;
+}
+
+.block {
+  display: block;
+}

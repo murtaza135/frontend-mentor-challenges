@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/app.js"></script>
+  <title>Interactive Rating Component | Frontend Mentor Challenge</title>
+</head>
+
+<body>
+
+  <div class="container center height-100-vh">
+    <div class="rating-card card bg-neutral-700">
+      <div class="star-circle">
+        <img src="./images/icon-star.svg" alt="">
+      </div>
+
+      <h1 class="card-title bold fs-700">How did we do?</h1>
+      <p class="card-text text-neutral-300">
+        Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!
+      </p>
+
+      <div id="feedback-buttons" class="card-feedback-buttons">
+        <div class="btn-circle" data-rating="1">1</div>
+        <div class="btn-circle" data-rating="2">2</div>
+        <div class="btn-circle" data-rating="3">3</div>
+        <div class="btn-circle" data-rating="4">4</div>
+        <div class="btn-circle" data-rating="5">5</div>
+      </div>
+
+      <button id="submit" class="btn-submit btn btn-primary stretch uppercase letter-spacing-1 bold">
+        Submit
+      </button>
+    </div>
+
+    <div class="hide thank-you-card card center text-center bg-neutral-700">
+      <img class="card-thank-you-image" src="./images/illustration-thank-you.svg" alt="">
+      <p class="card-rating-message pill">
+        You selected <span id="selected-rating"></span> out of 5
+      </p>
+      <h1 class="card-title text-center bold fs-700">Thank you!</h1>
+      <p class="card-text text-center text-neutral-300">
+        We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>

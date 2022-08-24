@@ -1,0 +1,29 @@
+:root {
+  /* colors */
+  --clr-primary-400: 246, 80%, 60%;
+
+  --clr-neutral-100: 0, 0%, 100%;
+  --clr-neutral-200: 236, 100%, 87%;
+  --clr-neutral-400: 235, 45%, 71%;
+  --clr-neutral-600: 235, 41%, 34%;
+  --clr-neutral-700: 235, 46%, 20%;
+  --clr-neutral-800: 226, 43%, 10%;
+
+  --clr-work: 15, 100%, 70%;
+  --clr-play: 195, 74%, 62%;
+  --clr-study: 348, 100%, 68%;
+  --clr-exercise: 145, 58%, 55%;
+  --clr-social: 264, 64%, 52%;
+  --clr-self-care: 43, 84%, 65%;
+
+  /* font sizes */
+  --fs-100: 0.35rem;
+  --fs-300: 0.825rem;
+  --fs-400: 1.125rem;
+  --fs-500: 1.3rem;
+  --fs-700: 2rem;
+  --fs-800: 3rem;
+
+  /* font families */
+  --ff-sans: "Rubik", sans-serif;
+}

@@ -1,0 +1,29 @@
+.card {
+  border-radius: 1rem;
+  padding: 1.5rem;
+  display: grid;
+  gap: 1rem;
+  max-width: 24rem;
+}
+
+.card-feedback-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
+  justify-items: center;
+  column-gap: 0.5rem;
+  row-gap: 1rem;
+  margin: 0.25rem 0 0.5rem;
+}
+
+.card-thank-you-image {
+  height: 90%;
+}
+
+.card-rating-message {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.thank-you-card {
+  padding: 2.5rem 1.5rem;
+}

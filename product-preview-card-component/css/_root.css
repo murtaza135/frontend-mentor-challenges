@@ -1,0 +1,18 @@
+:root {
+  /* colors */
+  --clr-primary-400: 158, 36%, 37%;
+  --clr-primary-700: 158, 36%, 18%;
+  --clr-secondary-400: 30, 38%, 92%;
+
+  --clr-neutral-100: 0, 0%, 100%;
+  --clr-neutral-400: 228, 12%, 48%;
+  --clr-neutral-800: 212, 21%, 14%;
+
+  /* font sizes */
+  --fs-400: 0.875rem;
+  --fs-700: 2rem;
+
+  /* font families */
+  --ff-sans: "Montserrat", sans-serif;
+  --ff-serif: "Fraunces", serif;
+}

@@ -1,0 +1,157 @@
+/* Typography */
+.ff-sans {
+  font-family: var(--ff-sans);
+}
+
+.fs-100 {
+  font-size: var(--fs-100);
+}
+.fs-300 {
+  font-size: var(--fs-300);
+}
+
+.fs-400 {
+  font-size: var(--fs-400);
+}
+
+.fs-500 {
+  font-size: var(--fs-500);
+}
+
+.fs-700 {
+  font-size: var(--fs-700);
+}
+
+.fs-800 {
+  font-size: var(--fs-800);
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.letter-spacing-1 {
+  letter-spacing: 2.5px;
+}
+
+/* Colors */
+.bg-primary-400 {
+  background-color: hsl(var(--clr-primary-400));
+}
+
+.bg-neutral-100 {
+  background-color: hsl(var(--clr-neutral-100));
+}
+
+.bg-neutral-200 {
+  background-color: hsl(var(--clr-neutral-200));
+}
+
+.bg-neutral-400 {
+  background-color: hsl(var(--clr-neutral-400));
+}
+
+.bg-neutral-700 {
+  background-color: hsl(var(--clr-neutral-700));
+}
+
+.bg-neutral-800 {
+  background-color: hsl(var(--clr-neutral-800));
+}
+
+.bg-work {
+  background-color: hsl(var(--clr-work));
+}
+
+.bg-play {
+  background-color: hsl(var(--clr-play));
+}
+
+.bg-study {
+  background-color: hsl(var(--clr-study));
+}
+
+.bg-exercise {
+  background-color: hsl(var(--clr-exercise));
+}
+
+.bg-social {
+  background-color: hsl(var(--clr-social));
+}
+
+.bg-self-care {
+  background-color: hsl(var(--clr-self-care));
+}
+
+.text-primary-400 {
+  color: hsl(var(--clr-primary-400));
+}
+
+.text-neutral-100 {
+  color: hsl(var(--clr-neutral-100));
+}
+
+.text-neutral-200 {
+  color: hsl(var(--clr-neutral-200));
+}
+
+.text-neutral-400 {
+  color: hsl(var(--clr-neutral-400));
+}
+
+.text-neutral-700 {
+  color: hsl(var(--clr-neutral-700));
+}
+
+.text-neutral-800 {
+  color: hsl(var(--clr-neutral-800));
+}
+
+/* Layout */
+.container {
+  max-width: var(--container, 80rem);
+  padding: 0 1rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.height-100-vh {
+  min-height: 100vh;
+}
+
+.stretch {
+  min-width: 100%;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+}
+
+.inline {
+  display: inline;
+}
+
+.block {
+  display: block;
+}

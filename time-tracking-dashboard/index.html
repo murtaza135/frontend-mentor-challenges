@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="js/info.js"></script>
+    <script defer src="js/app.js"></script>
+    <title>Time Tracking Dashboard | Frontend Mentor Challenges</title>
+</head>
+
+<body>
+    <div class="container center height-100-vh">
+        <div class="cards-container">
+            <div class="report-card card bg-neutral-700">
+                <div class="report-inner-card card bg-primary-400">
+                    <img class="report-card-image" src="./images/image-jeremy.png" alt="">
+                    <div class="report-card-info">
+                        <p class="report-card-name-prefix text-neutral-400 fs-300">Report for</p>
+                        <h1 class="report-card-name text-neutral-300 fs-500 fw-300">Jeremy Robson</h1>
+                    </div>
+                </div>
+                <div class="report-outer-card">
+                    <button id="btn-daily" class="btn-daily btn-time-length btn btn-neutral-400">Daily</button>
+                    <button id="btn-weekly" class="btn-weekly btn-time-length btn btn-neutral-400">Weekly</button>
+                    <button id="btn-monthly" class="btn-monthly btn-time-length btn btn-neutral-400">Monthly</button>
+                </div>
+            </div>
+
+            <div class="work-card time-tracking-card card bg-work">
+                <button class="time-tracking-options-button btn btn-neutral-400 bold letter-spacing-1 fs-100">
+                    &#11044;&#11044;&#11044;
+                </button>
+                <div class="time-tracking-outer-card">
+                    <img src="./images/icon-work.svg" alt="" class="time-tracking-image" style="--image-top: -35%;">
+                </div>
+                <div class="time-tracking-inner-card card bg-neutral-700">
+                    <h1 class="time-tracking-title text-neutral-200 fs-400 fw-500">Work</h1>
+                    <div id="work-time-info" class="time-tracking-time-data">
+                        <p class="time-tracking-current text-neutral-200 fs-700 fw-300"></p>
+                        <p class="time-tracking-previous text-neutral-400 fs-300"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="play-card time-tracking-card card bg-play">
+                <button class="time-tracking-options-button btn btn-neutral-400 bold letter-spacing-1 fs-100">
+                    &#11044;&#11044;&#11044;
+                </button>
+                <div class="time-tracking-outer-card">
+                    <img src="./images/icon-play.svg" alt="" class="time-tracking-image" style="--image-top: -15%;">
+                </div>
+                <div class="time-tracking-inner-card card bg-neutral-700">
+                    <h1 class="time-tracking-title text-neutral-200 fs-400 fw-500">Play</h1>
+                    <div id="play-time-info" class="time-tracking-time-data">
+                        <p class="time-tracking-current text-neutral-200 fs-700 fw-300"></p>
+                        <p class="time-tracking-previous text-neutral-400 fs-300"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="study-card time-tracking-card card bg-study">
+                <button class="time-tracking-options-button btn btn-neutral-400 bold letter-spacing-1 fs-100">
+                    &#11044;&#11044;&#11044;
+                </button>
+                <div class="time-tracking-outer-card">
+                    <img src="./images/icon-study.svg" alt="" class="time-tracking-image" style="--image-top: -25%;">
+                </div>
+                <div class="time-tracking-inner-card card bg-neutral-700">
+                    <h1 class="time-tracking-title text-neutral-200 fs-400 fw-500">Study</h1>
+                    <div id="study-time-info" class="time-tracking-time-data">
+                        <p class="time-tracking-current text-neutral-200 fs-700 fw-300"></p>
+                        <p class="time-tracking-previous text-neutral-400 fs-300"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="exercise-card time-tracking-card card bg-exercise">
+                <button class="time-tracking-options-button btn btn-neutral-400 bold letter-spacing-1 fs-100">
+                    &#11044;&#11044;&#11044;
+                </button>
+                <div class="time-tracking-outer-card">
+                    <img src="./images/icon-exercise.svg" alt="" class="time-tracking-image" style="--image-top: -5%;">
+                </div>
+                <div class="time-tracking-inner-card card bg-neutral-700">
+                    <h1 class="time-tracking-title text-neutral-200 fs-400 fw-500">Exercise</h1>
+                    <div id="exercise-time-info" class="time-tracking-time-data">
+                        <p class="time-tracking-current text-neutral-200 fs-700 fw-300"></p>
+                        <p class="time-tracking-previous text-neutral-400 fs-300"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-card time-tracking-card card bg-social">
+                <button class="time-tracking-options-button btn btn-neutral-400 bold letter-spacing-1 fs-100">
+                    &#11044;&#11044;&#11044;
+                </button>
+                <div class="time-tracking-outer-card">
+                    <img src="./images/icon-social.svg" alt="" class="time-tracking-image" style="--image-top: -47.5%;">
+                </div>
+                <div class="time-tracking-inner-card card bg-neutral-700">
+                    <h1 class="time-tracking-title text-neutral-200 fs-400 fw-500">Social</h1>
+                    <div id="social-time-info" class="time-tracking-time-data">
+                        <p class="time-tracking-current text-neutral-200 fs-700 fw-300"></p>
+                        <p class="time-tracking-previous text-neutral-400 fs-300"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="self-care-card time-tracking-card card bg-self-care">
+                <button class="time-tracking-options-button btn btn-neutral-400 bold letter-spacing-1 fs-100">
+                    &#11044;&#11044;&#11044;
+                </button>
+                <div class="time-tracking-outer-card">
+                    <img src="./images/icon-self-care.svg" alt="" class="time-tracking-image"
+                        style="--image-top: -30%;">
+                </div>
+                <div class="time-tracking-inner-card card bg-neutral-700">
+                    <h1 class="time-tracking-title text-neutral-200 fs-400 fw-500">Self Care</h1>
+                    <div id="self-care-time-info" class="time-tracking-time-data">
+                        <p class="time-tracking-current text-neutral-200 fs-700 fw-300"></p>
+                        <p class="time-tracking-previous text-neutral-400 fs-300"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

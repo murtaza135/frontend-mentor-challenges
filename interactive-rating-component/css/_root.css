@@ -1,0 +1,17 @@
+:root {
+  /* colors */
+  --clr-primary-400: 25, 97%, 53%;
+
+  --clr-neutral-100: 0, 0%, 100%;
+  --clr-neutral-300: 217, 12%, 63%;
+  --clr-neutral-400: 216, 20%, 23%;
+  --clr-neutral-700: 213, 19%, 18%;
+  --clr-neutral-800: 216, 12%, 8%;
+
+  /* font sizes */
+  --fs-400: 0.9375rem;
+  --fs-700: 1.75rem;
+
+  /* font families */
+  --ff-sans: "Overpass", sans-serif;
+}
