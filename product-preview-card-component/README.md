@@ -6,6 +6,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
+    - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
@@ -26,6 +27,10 @@ Users should be able to:
 ### Screenshot
 
 ![](./other/screenshot.png)
+
+### Links
+- Solution URL: https://github.com/murtaza135/frontend-mentor-challenges/tree/main/product-preview-card-component
+- Live Site URL: https://incandescent-seahorse-3c4f4f.netlify.app/
 
 ## My process
 
