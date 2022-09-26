@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/main.css">
+  <script defer src="./js/data.js"></script>
+  <script defer src="./js/main.js"></script>
+  <title>Expenses Chart Component | Frontend Mentor</title>
+</head>
+
+<body>
+  <div class="container center height-100-vh">
+    <div class="cards-container grid gap-2">
+      <div class="balance-card card bg-primary-400 text-neutral-150">
+        <section class="balance-card-data">
+          <h2 class="fs-300 text-neutral-200">My balance</h2>
+          <p class="fs-500 fw-700 text-neutral-150">$921.48</p>
+        </section>
+        <img class="balance-card-logo" src="./images/logo.svg" alt="">
+      </div>
+
+      <div class="spending-card card bg-neutral-150 text-neutral-700">
+        <h1 class="fs-500 fw-700 mb-5">Spending - Last 7 days</h1>
+
+        <section id="bar-chart" class="bar-chart text-center">
+          <div class="bar-section">
+            <div class="bar"></div>
+            <p class="bar-label fs-200 text-neutral-400">mon</p>
+          </div>
+
+          <div class="bar-section">
+            <div class="bar"></div>
+            <p class="bar-label fs-200 text-neutral-400">tue</p>
+          </div>
+
+          <div class="bar-section">
+            <div class="bar"></div>
+            <p class="bar-label fs-200 text-neutral-400">wed</p>
+          </div>
+
+          <div class="bar-section">
+            <div class="bar"></div>
+            <p class="bar-label fs-200 text-neutral-400">thu</p>
+          </div>
+
+          <div class="bar-section">
+            <div class="bar"></div>
+            <p class="bar-label fs-200 text-neutral-400">fri</p>
+          </div>
+
+          <div class="bar-section">
+            <div class="bar"></div>
+            <p class="bar-label fs-200 text-neutral-400">sat</p>
+          </div>
+
+          <div class="bar-section">
+            <div class="bar"></div>
+            <p class="bar-label fs-200 text-neutral-400">sun</p>
+          </div>
+        </section>
+
+        <div class="separator bg-neutral-400"></div>
+
+        <section class="spending-card-meta-data">
+          <h2 class="fs-300 text-neutral-400">Total this month</h2>
+          <div class="spending-card-meta-data-price">
+            <p class="fs-700 fw-700 text-neutral-700">$478.33</p>
+            <div class="flex flex-column">
+              <p class="fs-300 fw-700 text-neutral-700">+2.4%</p>
+              <p class="fs-300 text-neutral-400">from last month</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

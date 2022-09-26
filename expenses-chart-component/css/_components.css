@@ -1,0 +1,62 @@
+/* Separator */
+.separator {
+  width: 100%;
+  height: 2px;
+  opacity: 0.25;
+  margin: 1.5rem 0;
+}
+
+/* Card */
+.card {
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+/* Bar Chart */
+.bar-chart {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.bar-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  width: auto;
+}
+
+.bar {
+  background-color: hsl(var(--clr-primary-400));
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.bar:hover {
+  background-color: hsl(var(--clr-primary-400), 0.8);
+}
+
+.bar.active {
+  background-color: hsl(var(--clr-secondary-400));
+}
+
+.bar.active:hover {
+  background-color: hsl(var(--clr-secondary-400), 0.6);
+}
+
+.bar:hover::before {
+  content: attr(data-value);
+  position: absolute;
+  top: -2rem;
+  font-size: var(--fs-200);
+  font-weight: 700;
+  background-color: hsl(var(--clr-neutral-700));
+  color: hsl(var(--clr-neutral-150));
+  padding: 0.25rem 0.3rem;
+  border-radius: 5px;
+  z-index: 2;
+}

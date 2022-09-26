@@ -1,0 +1,24 @@
+:root {
+  /* colors */
+  --clr-primary-400: 10, 79%, 65%;
+  --clr-secondary-400: 186, 34%, 60%;
+
+  --clr-neutral-100: 0, 0%, 100%;
+  --clr-neutral-150: 33, 100%, 98%;
+  --clr-neutral-200: 27, 66%, 92%;
+  --clr-neutral-400: 28, 10%, 53%;
+  --clr-neutral-700: 25, 47%, 15%;
+  --clr-neutral-900: 0, 0%, 7%;
+
+  /* font sizes */
+  --fs-100: 0.35rem;
+  --fs-200: 0.75rem;
+  --fs-300: 0.825rem;
+  --fs-400: 1.125rem;
+  --fs-500: 1.3rem;
+  --fs-700: 2rem;
+  --fs-800: 3rem;
+
+  /* font families */
+  --ff-sans-serif: "DM Sans", sans-serif;
+}

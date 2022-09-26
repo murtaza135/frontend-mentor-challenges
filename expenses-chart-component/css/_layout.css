@@ -1,0 +1,26 @@
+.cards-container {
+  width: min(var(--cards-container, 22.5rem), 100%);
+}
+
+.balance-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance-card-logo {
+  max-height: 2.25rem;
+  margin-right: 0.25rem;
+}
+
+.spending-card-meta-data-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.spending-card-meta-data-price > *:nth-child(even) {
+  text-align: end;
+}
